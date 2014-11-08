@@ -17,6 +17,7 @@ Install the s3_website gem via bundler:
 
     bundle install
 
+Note: `s3_website` requires a JDK as of July 2014, as it is now written in Scala. 
 
 Set the AWS credentials. **NOTE:** Use a restricted IAM role for this!
 
