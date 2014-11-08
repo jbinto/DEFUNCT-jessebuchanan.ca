@@ -13,6 +13,11 @@ Clone the repo.
     git clone git@github.com:jbinto/jessebuchanan.ca.git
     cd jessebuchanan.ca
    
+Install the s3_website gem via bundler:
+
+    bundle install
+
+
 Set the AWS credentials. **NOTE:** Use a restricted IAM role for this!
 
     cp set_aws_credentials.sh.example set_aws_credentials.sh
